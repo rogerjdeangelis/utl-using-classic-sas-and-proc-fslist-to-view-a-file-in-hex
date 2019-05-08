@@ -3,7 +3,12 @@ Using classic SAS and proc fslist to view a file in hex
 Yow need the clean command line ie '====> _____' not EE, EG, SAS Studio, UE, .....         
                                                                                            
 This solution uses some advanced techniques only available in 1980's SAS.                  
-All the enhanced 'versions' of SAS lack this critical functionality.                       
+All the enhanced 'versions' of SAS lack this critical functionality.  
+
+github                                                                                                                                  
+https://tinyurl.com/y384pukn                                                                                                            
+https://github.com/rogerjdeangelis/utl-using-classic-sas-and-proc-fslist-to-view-a-file-in-hex    
+
                                                                                            
 *_                   _                                                                     
 (_)_ __  _ __  _   _| |_                                                                   
