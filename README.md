@@ -26,7 +26,7 @@ Using classic SAS and proc fslist to view a file in hex
     * create a comma separated file;                                                                 
     dm "dexport sashelp.class '%sysfunc(pathname(work))/have.csv' replace";                          
                                                                                                      
-    d:/wrk/_TDXXXX_XXXXX-PC_/have.txt                                                                
+    d:/wrk/_TDXXXX_XXXXX-PC_/have.csv                                                                
                                                                                                      
      Alfred ,M ,14 ,69 ,112.5                                                                        
      Alice ,F ,13 ,56.5 ,84                                                                          
@@ -101,7 +101,7 @@ Using classic SAS and proc fslist to view a file in hex
                                                                                                      
     dm "dexport sashelp.class '%sysfunc(pathname(work))/have.csv' replace";                          
                                                                                                      
-    proc fslist file="%sysfunc(pathname(work))/have.txt";                                            
+    proc fslist file="%sysfunc(pathname(work))/have.csv";                                            
     run;quit;                                                                                        
                                                                                                      
     * after fslist comes up enter the following onthe command line;                                  
